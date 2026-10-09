@@ -11,13 +11,19 @@ Location photography
 Source: https://commons.wikimedia.org/wiki/File:Amman_Panorama_at_Amman_citadel_2025.jpg
 License: CC0 1.0 Universal.
 https://creativecommons.org/publicdomain/zero/1.0/
-Used as the cover panorama, cropped in the layout and overlaid with native decorative shapes and colour tinting. The flag is a separate native SVG illustration.
+Used as the cover panorama in earlier editions, with a separate native SVG flag. The current bilingual edition uses photograph 3 below; it contains the real flag in the original scene, with no illustrated flag overlay.
 
 2. Amman Citadel Temple of Hercules — by LiAnna Davis.
 Source: https://commons.wikimedia.org/wiki/File:Amman_Citadel_Temple_of_Hercules.JPG
 License: Creative Commons Attribution-ShareAlike 3.0 Unported.
 https://creativecommons.org/licenses/by-sa/3.0/
 Used on the introduction panel, cropped by the layout and converted to the print colour profile in the PDFs. The original photograph is included in the editable sources. The photograph and adaptations of it remain available under CC BY-SA 3.0; this license does not claim ownership of the other independently authored elements of the collection. Attribution also appears next to the photograph in each brochure edition.
+
+3. View from Amman Citadel to palace flagpole — by Daniel Case.
+Source: https://commons.wikimedia.org/wiki/File:View_from_Amman_Citadel_to_palace_flagpole.jpg
+License selected: Creative Commons Attribution-ShareAlike 3.0 Unported.
+https://creativecommons.org/licenses/by-sa/3.0/
+Current bilingual cover photograph: assets/amman-flag-city.jpg. Amman and the real Jordanian flag are photographed together. The original photograph is included intact; the layout crops and applies a colour tint using CSS. The photograph and adaptations remain under CC BY-SA 3.0. The independent typography, company identity and other layout elements retain their own credits. Attribution also appears beside the photograph in the brochure.
 
 Service medallions
 Seven transparent PNG service icons were generated using OpenAI's built-in imagegen tool for this collection. Full generation prompts are in assets/IMAGEGEN-PROMPTS.txt. Brochure spreads are native HTML layouts; the founder portrait is the supplied original. The card's separate generated material layers are described above.

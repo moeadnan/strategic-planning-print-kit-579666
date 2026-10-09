@@ -50,3 +50,10 @@ Removed the opening paragraph about his accounting/business strengths at the use
 The user requested a small circular portrait, cropped from the chest upwards, with a subtle brand design behind it. The portrait now measures 32 mm in diameter, with a fine copper edge and the company’s petal motif behind it. The crop uses CSS; the original photograph is unchanged.
 
 All brochure copy, the business card and the locked personal note are unchanged. Only editable HTML and visual previews were refreshed. No PDF or printer package was generated.
+
+
+## Flag photography revision 25 — pending design approval
+
+The user requested a real flag instead of the vector flag in the cover image. The bilingual outside spread now uses Daniel Case’s photograph of Amman and the Jordanian flag in the same original scene (CC BY-SA 3.0). The illustrated flag overlay has been removed from this edition. The original photograph is intact; CSS controls the crop and colour tint. Credits are documented in CREDITS.txt and beside the photo.
+
+The circular founder portrait, brochure copy, card artwork and locked personal note are unchanged. All PDF and ZIP files remain unchanged.

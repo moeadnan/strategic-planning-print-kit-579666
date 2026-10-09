@@ -15,6 +15,7 @@
 .dual-kicker>p[lang=en]{font:600 6.4pt/1.5 var(--sans);letter-spacing:.55mm;color:#916a47;margin-top:.4mm}
 
 /* Front cover and the continuous Amman image. */
+.bilingual-sheet .panorama>img{object-position:0% 50%}
 .bilingual-sheet .dual-cover{padding-top:9mm}
 .dual-cover-ivory{position:absolute;left:-3mm;top:-3mm;width:102mm;height:183mm;z-index:-1}
 .dual-cover .dual-identity{align-items:flex-start}
@@ -35,7 +36,7 @@
 .dual-story-kicker{margin-top:5mm}
 .dual-story-kicker>p[lang=ar]{font:400 9.4pt/1.7 var(--ar)}
 .dual-story-kicker>p[lang=en]{font:600 6.2pt/1.6 var(--sans);letter-spacing:.4mm}
-.bilingual-sheet .jordan-flag{left:17mm;right:auto;top:68mm}
+.dual-story .dual-panorama-credit{left:7mm;right:auto;bottom:3.5mm;padding:.4mm 1mm;background:#f6f1e8ed;color:#42596b;font:400 5.5pt/1.4 var(--sans)}
 .dual-story-bottom{position:absolute;bottom:9mm;left:0;right:0;padding:21mm 7mm 9mm;background:#f6f1e8ed;clip-path:polygon(0 0,100% 20%,100% 100%,0 100%)}
 .dual-story-statement{margin-top:3mm}
 .dual-story-statement>p[lang=ar]{font:500 16pt/1.65 var(--ar)}
