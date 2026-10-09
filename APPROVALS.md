@@ -43,3 +43,10 @@ Removed the paragraph about delayed replies at the user’s request. The remaini
 ## Welcome revision 23 — explicit user edit
 
 Removed the opening paragraph about his accounting/business strengths at the user’s request. Only the feedback request and the prayer remain, with their wording unchanged. All design artwork is unchanged. The revised personal message remains locked.
+
+
+## Portrait revision 24 — pending design approval
+
+The user requested a small circular portrait, cropped from the chest upwards, with a subtle brand design behind it. The portrait now measures 32 mm in diameter, with a fine copper edge and the company’s petal motif behind it. The crop uses CSS; the original photograph is unchanged.
+
+All brochure copy, the business card and the locked personal note are unchanged. Only editable HTML and visual previews were refreshed. No PDF or printer package was generated.
