@@ -1,5 +1,8 @@
 /* One bilingual edition. Arabic first; aligned translations and real print sizes. */
-.bilingual-sheet .panel{padding:8mm 7mm 7mm;direction:rtl;overflow:hidden}
+.bilingual-sheet .panel{padding:8mm 7mm 7mm;direction:rtl;overflow:visible;clip-path:inset(-3mm 0)}
+/* Extend edge artwork into the bleed while clipping at internal panel edges. */
+.bilingual-sheet .panel:first-child{clip-path:inset(-3mm 0 -3mm -3mm)}
+.bilingual-sheet .panel:last-child{clip-path:inset(-3mm -3mm -3mm 0)}
 .bilingual-sheet [lang=en]{font-family:var(--sans);letter-spacing:0;text-align:left;direction:ltr}
 .bilingual-sheet [lang=ar]{font-family:var(--ar);letter-spacing:0;text-align:right;direction:rtl}
 .dual-pair>p[lang=ar]{font:400 9.8pt/1.7 var(--ar)}

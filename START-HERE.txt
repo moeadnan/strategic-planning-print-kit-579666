@@ -1,35 +1,32 @@
-STRATEGIC PLANNING — PRINTING HANDOFF
-Approved collection 11 / midnight navy, warm ivory and copper | 09 October 2026
+التخطيط الاستراتيجي — تسليم ملفات الطباعة
+النسخة النهائية 26 / بطاقة أعمال ومطويّة واحدة باللغتين / 9 أكتوبر 2026
 
-1. COMMERCIAL PRINTING
-Use the files ending in -PRINT-CMYK.pdf.
-Business card: 90 x 55 mm trim, two pages / two sides.
-English brochure: 396 x 210 mm trim, page 1 outside, page 2 inside.
-Arabic brochure: same size and page order, mirrored reading direction.
-All three have 3 mm bleed, crop marks outside the bleed, encoded TrimBox and BleedBox, embedded fonts and a PSO Coated v3 / FOGRA51 CMYK output intent. The file's full page size includes the crop-mark area; it is NOT the finished size.
+1. الملفات المخصّصة للمطبعة
+Business-Card-PRINT-CMYK.pdf: بطاقة 90 × 55 مم؛ الصفحة 1 الهوية، والصفحة 2 التواصل.
+Brochure-Bilingual-PRINT-CMYK.pdf: مطويّة واحدة بالعربية والإنجليزية، 396 × 210 مم؛ الصفحة 1 الخارج، والصفحة 2 الداخل.
+Print-Specifications.pdf: دليل عربي للمقاسات والألوان وترتيب الألواح والطيّ.
+ملفا الإنتاج بنزف 3 مم وعلامات قصّ خارجه، مع TrimBox وBleedBox، وخطوط مضمّنة وملف ألوان PSO Coated v3 / FOGRA51. مقاس صفحة الملف يتضمّن مساحة العلامات؛ المقاس النهائي تحدّده TrimBox.
 
-2. OFFICE PRINTING
-Business-Card-Office-A4.pdf: A4 portrait, eight cards per side.
-Print both pages duplex, flip on LONG edge, actual size / 100%.
-Brochure-English-Office-A3.pdf and Brochure-Arabic-Office-A3.pdf: A3 landscape, one complete brochure per sheet.
-Print both pages duplex, flip on SHORT edge, actual size / 100%.
-Disable fit-to-page, shrink-to-fit and automatic booklet printing.
-First print one duplex sheet to check alignment and the device's flip setting.
+2. الطباعة المكتبية
+Business-Card-Office-A4.pdf: ورقة A4 عمودية، 8 بطاقات في كل وجه. طباعة على الوجهين، مع القلب على الحافة الطويلة.
+Brochure-Bilingual-Office-A3.pdf: ورقة A3 أفقية، مطويّة واحدة في كل وجه. طباعة على الوجهين، مع القلب على الحافة القصيرة.
+اختر Actual size / 100% وعطّل Fit to page وShrink to fit وBooklet.
+اطبع ورقة واحدة على الوجهين أولًا لفحص المحاذاة واتجاه القلب.
 
-3. FOLDING AND FINISHING
-Brochure: four-panel accordion / concertina fold; finished 99 x 210 mm.
-Three alternating folds at 99, 198 and 297 mm from the LEFT trim edge.
-Use the panel-order diagrams in Print-Specifications.pdf. The founder/contact panel is the back cover. The Arabic edition mirrors the English edition. Make a folding dummy before the full run.
-Suggested card stock: 350–400 gsm matte coated with soft-touch, or tactile warm-white stock with the printer's matching profile.
-Suggested brochure stock: 170–200 gsm matte coated; score folds as appropriate.
-The card pairs a midnight-navy brand face with an ivory contact face. The printed paper grain and textured copper are included in the CMYK artwork and reproduce with process inks. All wording, contact icons and dividing rules are separate vector elements. Card material images exceed 400 ppi at the supplied bleed size.
-No foil mask is included for revision 11. If a physical metallic finish is required, the print provider must prepare registered tooling from the final artwork. Tactile paper and metallic foil require the corresponding stock and finishing process.
+3. طيّ المطويّة
+أربعة ألواح متساوية؛ المقاس بعد الطيّ 99 × 210 مم. ثلاث طيّات متعاكسة عند 99 و198 و297 مم من حافة القصّ اليسرى. الغلاف الأمامي ظاهر عند الإغلاق.
+ترتيب الخارج من اليسار إلى اليمين: الغلاف الأمامي / امتداد الصورة / الهوية / أحمد أبو الرب والتواصل.
+ترتيب الداخل من اليسار إلى اليمين: التسويق ومنهج العمل / الضرائب والاستثمار والعقود / الأعمال والمحاسبة والمشاريع / المقدمة.
+العربية والإنجليزية معًا داخل كل لوح. لا توجد ملفات منفصلة لكل لغة في هذه النسخة.
 
-4. PRODUCTION NOTES
-Confirm the supplied CMYK profile with the print provider, then check a physical proof for colour, fold direction and contact details before the full run. These are production PDFs with explicit print geometry; no independent PDF/X certification is claimed.
-The card's text-free material and mark artwork was generated from the supplied benchmark. Brochure marks and decorative petals are editable SVG reconstructions. Neither replaces an original corporate vector master; any supplied official master should be checked against the final proof before substitution.
-The supplied founder portrait is preserved. The Amman photography is licensed; see CREDITS.txt. The service icons are generated transparent PNG artwork.
+4. الخامة والتشطيب
+اقتراح للبطاقة: 350–400 غ/م² مطفيّ أو ناعم الملمس. للمطويّة: 170–200 غ/م² مطفيّ مع تخديد الطيّات بحسب الورق.
+الوجه الأمامي للبطاقة كحلي والخلفي عاجي. الملمس والنحاس مطبوعان بأحبار عادية؛ لا تتضمّن هذه الحزمة قالب رقائق معدنية.
+صورة أحمد دائرية صغيرة بقصّة من الصدر إلى الأعلى، وصورة عمّان تضمّ العلم الحقيقي في اللقطة نفسها. الأصول والحقوق موثّقة في CREDITS.txt.
 
-Typography: Source Serif 4 English wordmarks and main headings, IBM Plex Sans Arabic, Source Sans 3 personal names, reading text and contact details. Approved collection 11 uses restrained typography: 7.3 pt card contacts, 9.4–9.7 pt English brochure body text and 10–10.2 pt Arabic brochure body text. See TYPOGRAPHY.txt.
+5. فحص الإنتاج
+تأكّد من توافق ملف الألوان مع المطبعة والورق، وافحص نموذجًا مطبوعًا للون والطيّ ومحاذاة الوجهين قبل تشغيل الكمية.
+ملفات PDF الإنتاجية بألوان CMYK/Gray؛ النصوص والخطوط مضمّنة، وعلامات القصّ والطيّ خارج النزف. دقة الصور المضمّنة الفعلية موثّقة في Quality-checks/print-preflight.json؛ أصول الصور الأصلية محفوظة في حزمة الملفات القابلة للتحرير.
+هذه ملفات إنتاج بفحص تقني للمقاسات والخطوط والألوان والصور؛ لا يُدّعى اعتماد PDF/X مستقل.
 
-Read Print-Specifications.pdf for dimensioned layouts and full printing instructions.
+الملفات القابلة للتحرير في Strategic-Planning-Editable-HTML.zip. لبدء المعاينة افتح index.html؛ الخطوط والصور محليّة.

@@ -57,3 +57,10 @@ All brochure copy, the business card and the locked personal note are unchanged.
 The user requested a real flag instead of the vector flag in the cover image. The bilingual outside spread now uses Daniel Case’s photograph of Amman and the Jordanian flag in the same original scene (CC BY-SA 3.0). The illustrated flag overlay has been removed from this edition. The original photograph is intact; CSS controls the crop and colour tint. Credits are documented in CREDITS.txt and beside the photo.
 
 The circular founder portrait, brochure copy, card artwork and locked personal note are unchanged. All PDF and ZIP files remain unchanged.
+
+
+## Final production 26 — export authorised
+
+On 9 October 2026 the user requested: “make sure all updated in PDF print as it should be and give me final link after ensirng all ok”. This authorises export of the displayed final design, including the single bilingual brochure, circular founder portrait, real flag photograph and all approved wording. Future design changes still require approval before further PDF export.
+
+Production is regenerated from the same current editable HTML artwork. The final handoff has one card PDF, one bilingual brochure PDF, A4/A3 office layouts and a two-page Arabic printing/folding guide. The personal note remains unchanged. Older separate-language brochure files are retained only in the prior archive/release.

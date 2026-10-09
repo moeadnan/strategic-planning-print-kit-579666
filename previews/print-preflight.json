@@ -1,0 +1,231 @@
+{
+  "scope": "Geometry, fonts, CMYK/gray paint and image resources, embedded output profile, effective image resolution >=295 ppi (300 ppi target). Not independent PDF/X certification.",
+  "passed": true,
+  "files": [
+    {
+      "file": "Business-Card-PRINT-CMYK.pdf",
+      "passed": true,
+      "errors": [],
+      "pdf_version": "%PDF-1.6",
+      "page_count": 2,
+      "pages": [
+        {
+          "media_mm": [
+            108.0,
+            73.0
+          ],
+          "trim_mm": [
+            90.0,
+            55.0
+          ],
+          "bleed_mm": [
+            96.0,
+            61.0
+          ]
+        },
+        {
+          "media_mm": [
+            108.0,
+            73.0
+          ],
+          "trim_mm": [
+            90.0,
+            55.0
+          ],
+          "bleed_mm": [
+            96.0,
+            61.0
+          ]
+        }
+      ],
+      "all_fonts_embedded": true,
+      "colour_spaces": [
+        "/DeviceCMYK"
+      ],
+      "output_intent": "FOGRA51",
+      "minimum_image_dpi": 414.0,
+      "bytes": 3367282,
+      "sha256": "2efca780b13a8e2782c3965a7fc3fa26cf8ec5f9112263bd0f8674884e8bae3e"
+    },
+    {
+      "file": "Brochure-Bilingual-PRINT-CMYK.pdf",
+      "passed": true,
+      "errors": [],
+      "pdf_version": "%PDF-1.6",
+      "page_count": 2,
+      "pages": [
+        {
+          "media_mm": [
+            414.0,
+            228.0
+          ],
+          "trim_mm": [
+            396.0,
+            210.0
+          ],
+          "bleed_mm": [
+            402.0,
+            216.0
+          ]
+        },
+        {
+          "media_mm": [
+            414.0,
+            228.0
+          ],
+          "trim_mm": [
+            396.0,
+            210.0
+          ],
+          "bleed_mm": [
+            402.0,
+            216.0
+          ]
+        }
+      ],
+      "all_fonts_embedded": true,
+      "colour_spaces": [
+        "/DeviceCMYK",
+        "/DeviceGray"
+      ],
+      "output_intent": "FOGRA51",
+      "minimum_image_dpi": 299.0,
+      "bytes": 7385426,
+      "sha256": "023de6e04d0eabe739e9c5bb815e4f9a1fbfce4cf173e272b072911cc70d48c7"
+    },
+    {
+      "file": "Business-Card-Office-A4.pdf",
+      "passed": true,
+      "errors": [],
+      "pdf_version": "%PDF-1.6",
+      "page_count": 2,
+      "pages": [
+        {
+          "media_mm": [
+            210.0,
+            297.0
+          ],
+          "trim_mm": [
+            210.0,
+            297.0
+          ],
+          "bleed_mm": [
+            210.0,
+            297.0
+          ]
+        },
+        {
+          "media_mm": [
+            210.0,
+            297.0
+          ],
+          "trim_mm": [
+            210.0,
+            297.0
+          ],
+          "bleed_mm": [
+            210.0,
+            297.0
+          ]
+        }
+      ],
+      "all_fonts_embedded": true,
+      "colour_spaces": [
+        "/DeviceCMYK"
+      ],
+      "output_intent": "FOGRA51",
+      "minimum_image_dpi": 414.0,
+      "bytes": 3411586,
+      "sha256": "a22478a50fa18b1f9c9d872efdebe2c590a9a0ada7dd55678b44d738ebf70400"
+    },
+    {
+      "file": "Brochure-Bilingual-Office-A3.pdf",
+      "passed": true,
+      "errors": [],
+      "pdf_version": "%PDF-1.6",
+      "page_count": 2,
+      "pages": [
+        {
+          "media_mm": [
+            420.0,
+            297.0
+          ],
+          "trim_mm": [
+            420.0,
+            297.0
+          ],
+          "bleed_mm": [
+            420.0,
+            297.0
+          ]
+        },
+        {
+          "media_mm": [
+            420.0,
+            297.0
+          ],
+          "trim_mm": [
+            420.0,
+            297.0
+          ],
+          "bleed_mm": [
+            420.0,
+            297.0
+          ]
+        }
+      ],
+      "all_fonts_embedded": true,
+      "colour_spaces": [
+        "/DeviceCMYK",
+        "/DeviceGray"
+      ],
+      "output_intent": "FOGRA51",
+      "minimum_image_dpi": 299.0,
+      "bytes": 7417541,
+      "sha256": "beca828ee7378511f4349bbef7833215e0adabd753b0b14ed8a4d65d4c17bef9"
+    },
+    {
+      "file": "Print-Specifications.pdf",
+      "passed": true,
+      "errors": [],
+      "pdf_version": "%PDF-1.6",
+      "page_count": 2,
+      "pages": [
+        {
+          "media_mm": [
+            210.0,
+            297.0
+          ],
+          "trim_mm": [
+            210.0,
+            297.0
+          ],
+          "bleed_mm": [
+            210.0,
+            297.0
+          ]
+        },
+        {
+          "media_mm": [
+            210.0,
+            297.0
+          ],
+          "trim_mm": [
+            210.0,
+            297.0
+          ],
+          "bleed_mm": [
+            210.0,
+            297.0
+          ]
+        }
+      ],
+      "all_fonts_embedded": true,
+      "colour_spaces": [],
+      "output_intent": "FOGRA51",
+      "minimum_image_dpi": null,
+      "bytes": 2546003,
+      "sha256": "cbfafcdb505050cb0e8767dbb5bbd663459c223df960929769d8f3905766147b"
+    }
+  ]
+}

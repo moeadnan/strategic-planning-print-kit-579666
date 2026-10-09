@@ -1,0 +1,118 @@
+{
+  "errors": [],
+  "guidesVisible": true,
+  "keyboardNavigation": true,
+  "continuousSections": [
+    {
+      "id": "card",
+      "visible": true
+    },
+    {
+      "id": "brochure",
+      "visible": true
+    },
+    {
+      "id": "files",
+      "visible": true
+    }
+  ],
+  "mobileOverflow": false,
+  "mobileBrochureOverflow": false,
+  "layoutChecks": [
+    {
+      "filename": "business-card",
+      "issues": [],
+      "cardContactFooterGap": 9.58,
+      "cardFrontFooterGap": 8.92,
+      "serviceGaps": [],
+      "marketingGaps": [],
+      "introGaps": [],
+      "founderFooterGaps": [],
+      "images": [
+        {
+          "loaded": true,
+          "w": 1574,
+          "h": 999
+        },
+        {
+          "loaded": true,
+          "w": 1579,
+          "h": 996
+        }
+      ],
+      "fontStatus": "loaded"
+    },
+    {
+      "filename": "brochure",
+      "issues": [],
+      "cardContactFooterGap": null,
+      "cardFrontFooterGap": null,
+      "serviceGaps": [
+        17.08,
+        17.08
+      ],
+      "marketingGaps": [
+        32.06
+      ],
+      "introGaps": [
+        101
+      ],
+      "founderFooterGaps": [
+        167.41
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "w": 3664,
+          "h": 2444
+        },
+        {
+          "loaded": true,
+          "w": 1122,
+          "h": 1402
+        },
+        {
+          "loaded": true,
+          "w": 1254,
+          "h": 1254
+        },
+        {
+          "loaded": true,
+          "w": 1254,
+          "h": 1254
+        },
+        {
+          "loaded": true,
+          "w": 1254,
+          "h": 1254
+        },
+        {
+          "loaded": true,
+          "w": 1254,
+          "h": 1254
+        },
+        {
+          "loaded": true,
+          "w": 1254,
+          "h": 1254
+        },
+        {
+          "loaded": true,
+          "w": 1254,
+          "h": 1254
+        },
+        {
+          "loaded": true,
+          "w": 1254,
+          "h": 1254
+        },
+        {
+          "loaded": true,
+          "w": 4000,
+          "h": 3000
+        }
+      ],
+      "fontStatus": "loaded"
+    }
+  ]
+}

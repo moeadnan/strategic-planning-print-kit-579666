@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "packages": [
+    {
+      "file": "Strategic-Planning-Printer-Package.zip",
+      "bytes": 23171053,
+      "sha256": "a283e632cb76510bdd84168a00554140006563d0702b0e2512d0cce727d874b6",
+      "pdfs": 5,
+      "zip_crc": "PASS"
+    },
+    {
+      "file": "Strategic-Planning-Editable-HTML.zip",
+      "bytes": 59818035,
+      "sha256": "441de2f84c3d3a61585e5cf3bfd768c9301566c595b0cd73a03337916981bb7b",
+      "pdfs": 5,
+      "zip_crc": "PASS"
+    }
+  ]
+}

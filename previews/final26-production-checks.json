@@ -1,0 +1,194 @@
+{
+  "edition": "final26",
+  "passed": true,
+  "scope": "Digital artwork and PDF verification. Physical colour, paper, duplex registration and fold proof to be checked by the printer before the run.",
+  "pdf_files": 5,
+  "pdf_pages_visually_reviewed": 10,
+  "approved_artwork_and_personal_note_preserved": true,
+  "circular_chest_up_portrait_and_real_flag_photo_present": true,
+  "arabic_shaping_and_bilingual_content_visually_reviewed": true,
+  "outside_inside_panel_order_and_accordion_fold_map_checked": true,
+  "office_duplex_settings": "A4 card: long edge; A3 landscape brochure: short edge; actual size 100%.",
+  "imposition_colour_checks": [
+    {
+      "master_mm": [
+        140,
+        20
+      ],
+      "source_rgb": [
+        155.8,
+        173.9,
+        195.6
+      ],
+      "press_rgb": [
+        155.9,
+        173.7,
+        195.7
+      ],
+      "office_rgb": [
+        156.0,
+        173.6,
+        195.8
+      ],
+      "max_difference_8bit": 0.30000000000001137
+    },
+    {
+      "master_mm": [
+        140,
+        40
+      ],
+      "source_rgb": [
+        158.9,
+        174.3,
+        192.1
+      ],
+      "press_rgb": [
+        159.1,
+        174.4,
+        192.4
+      ],
+      "office_rgb": [
+        159.0,
+        174.1,
+        192.3
+      ],
+      "max_difference_8bit": 0.30000000000001137
+    },
+    {
+      "master_mm": [
+        140,
+        60
+      ],
+      "source_rgb": [
+        162.8,
+        170.5,
+        184.6
+      ],
+      "press_rgb": [
+        162.7,
+        170.5,
+        184.7
+      ],
+      "office_rgb": [
+        162.6,
+        170.6,
+        184.7
+      ],
+      "max_difference_8bit": 0.20000000000001705
+    },
+    {
+      "master_mm": [
+        170,
+        40
+      ],
+      "source_rgb": [
+        160.9,
+        174.0,
+        193.4
+      ],
+      "press_rgb": [
+        161.2,
+        174.3,
+        193.7
+      ],
+      "office_rgb": [
+        161.0,
+        174.2,
+        193.6
+      ],
+      "max_difference_8bit": 0.30000000000001137
+    },
+    {
+      "master_mm": [
+        180,
+        60
+      ],
+      "source_rgb": [
+        165.1,
+        172.4,
+        187.0
+      ],
+      "press_rgb": [
+        164.9,
+        172.5,
+        186.9
+      ],
+      "office_rgb": [
+        164.9,
+        172.3,
+        186.9
+      ],
+      "max_difference_8bit": 0.19999999999998863
+    }
+  ],
+  "bleed_edge_checks": [
+    {
+      "edge": "outside cover left",
+      "bleed_rgb": [
+        238,
+        234,
+        225
+      ],
+      "trim_rgb": [
+        238,
+        234,
+        225
+      ],
+      "max_difference_8bit": 0
+    },
+    {
+      "edge": "outside cover top",
+      "bleed_rgb": [
+        239,
+        234,
+        225
+      ],
+      "trim_rgb": [
+        239,
+        234,
+        225
+      ],
+      "max_difference_8bit": 0
+    },
+    {
+      "edge": "inside navy left",
+      "bleed_rgb": [
+        22,
+        37,
+        58
+      ],
+      "trim_rgb": [
+        22,
+        37,
+        58
+      ],
+      "max_difference_8bit": 0
+    },
+    {
+      "edge": "inside navy bottom",
+      "bleed_rgb": [
+        22,
+        37,
+        58
+      ],
+      "trim_rgb": [
+        22,
+        37,
+        58
+      ],
+      "max_difference_8bit": 0
+    }
+  ],
+  "inside_photo_right_bleed_rgb": [
+    117,
+    107,
+    99
+  ],
+  "pdf_sha256": {
+    "Business-Card-PRINT-CMYK.pdf": "2efca780b13a8e2782c3965a7fc3fa26cf8ec5f9112263bd0f8674884e8bae3e",
+    "Brochure-Bilingual-PRINT-CMYK.pdf": "023de6e04d0eabe739e9c5bb815e4f9a1fbfce4cf173e272b072911cc70d48c7",
+    "Business-Card-Office-A4.pdf": "a22478a50fa18b1f9c9d872efdebe2c590a9a0ada7dd55678b44d738ebf70400",
+    "Brochure-Bilingual-Office-A3.pdf": "beca828ee7378511f4349bbef7833215e0adabd753b0b14ed8a4d65d4c17bef9",
+    "Print-Specifications.pdf": "cbfafcdb505050cb0e8767dbb5bbd663459c223df960929769d8f3905766147b"
+  }
+}

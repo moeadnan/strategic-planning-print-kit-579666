@@ -1,25 +1,27 @@
-STRATEGIC PLANNING — EDITABLE HTML SOURCES
+STRATEGIC PLANNING — APPROVED EDITABLE SOURCES / COLLECTION 26
 
-Open index.html in a browser to view the collection. All fonts and images are local; an internet connection is not required.
+Open index.html in a browser. All fonts and images are local; no internet connection is required for the design preview.
 
-business-card.html: bilingual, two-sided 90 x 55 mm card, 3 mm bleed.
-brochure-en.html: English, four-panel accordion, two sides.
-brochure-ar.html: Arabic, mirrored four-panel accordion, two sides.
-artwork.css: print artwork styling, typefaces and native layout.
-card-refinement.css: card composition, contact icons and the generated material layers used in both preview and print.
-typography.css: professional type roles, optical sizes and English/Arabic spacing.
-navy-refinement.css: collection 11 midnight-navy, ivory and copper colour system for cards and both brochures.
-TYPOGRAPHY.txt: font system and official sources.
-preview.css: responsive gallery styling, excluded from print output.
-assets/: original founder photo, licensed location photos, generated icons, card material images, local fonts and the output profile.
-assets/card-front-material-navy-v8.png: navy front material artwork, recoloured from the approved ivory composition with its corrected right-side ornament.
-assets/card-front-material-art-v4-final.png: earlier ivory front material artwork, retained as a reference.
-assets/card-back-material-art-v4-final.png: final reverse material artwork.
-tools/artwork.py: editable text content, native contact icons, brochure SVG mark/petal artwork and card image references.
-tools/build.py: regenerates the HTML documents from the artwork source; defaults to design-review mode. Use --approved only after design approval to restore final PDF download links.
-tools/render.cjs: creates screenshots and layout checks by default. Its --export-pdf flag creates RGB masters after design approval.
+business-card.html: approved bilingual card, 90 x 55 mm trim, front + back, 3 mm bleed.
+brochure.html: one Arabic/English brochure, four equal panels, outside + inside, 396 x 210 mm trim, 3 mm bleed.
+brochure-ar.html and brochure-en.html are compatibility aliases of the same bilingual brochure.
+print-specifications.html: editable Arabic A4 production guide, two pages.
 
-The browser's Print button exports the editable layout in RGB. For commercial printing, use the supplied -PRINT-CMYK.pdf files, which include the CMYK conversion, crop marks, embedded output profile and print page boxes.
+artwork.css, card-refinement.css, typography.css and navy-refinement.css: shared artwork, approved card, local fonts and navy/ivory/copper palette.
+brochure-refinement.css and bilingual-refinement.css: final bilingual brochure styling, paired copy and 32 mm circular founder portrait with the brand motif behind it.
+preview.css: responsive collection and zoom interface; excluded from artwork printing.
+assets/: local fonts and licenses, original portrait, original licensed photographs, generated service icons and card material artwork, and PSO Coated v3 ICC profile.
+assets/amman-flag-city.jpg: Daniel Case's original photograph showing Amman and the real Jordanian flag together. CSS provides cropping and colour tint. See CREDITS.txt.
 
-The printer ZIP contains only final handoff files. Intermediate RGB/K/CMYK masters are intentionally excluded from that package.
-Imagegen prompts are in assets/IMAGEGEN-PROMPTS.txt and assets/CARD-MATERIAL-PROMPTS.txt and assets/NAVY-08-PROMPT.txt; licensing and photo sources are in CREDITS.txt. No foil mask is supplied for revision 11.
+Reproduction tools:
+1. python3 tools/build.py --approved
+2. node tools/render.cjs --export-pdf
+3. python3 tools/produce_pdfs.py
+4. python3 tools/preflight.py
+5. python3 tools/package.py
+Python requires pypdf and reportlab; production requires Ghostscript and Poppler; rendering uses Playwright with Chrome. Adapt the Playwright module path in render.cjs to the local installation.
+Use the build review mode and screenshots only for future revisions until the revised design is approved.
+
+The browser's print output is an RGB master. The supplied -PRINT-CMYK.pdf files add profile conversion, crop/fold marks, encoded page boxes and the embedded CMYK output intent.
+The printer ZIP includes only the five final handoff PDFs, instructions, credits, ICC profile and preflight report. Intermediate masters and older separate-language brochures are excluded.
+Image generation prompts and font/photo licenses accompany the source assets. No foil mask is supplied for this edition.
