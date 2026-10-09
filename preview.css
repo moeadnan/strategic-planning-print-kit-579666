@@ -137,3 +137,7 @@
 .dialog-canvas>.sheet{position:absolute;left:0;top:0;transform-origin:top left;box-shadow:0 5px 22px #10283f26}
 body.dialog-open{overflow:hidden}
 @media(max-width:600px){.collection-brand strong[lang=ar]{font-size:20px}.collection-brand span[lang=en]{font-size:14px}.collection-nav .tab-title{font-size:15px}.collection-nav .tab-caption{font-size:11px}.collection-nav .guide-toggle{font-size:11px}.view-heading h2[lang=ar]{font-size:27px}.proof-label{align-items:flex-start;gap:10px}.proof-label h3{font-size:17px}.proof-label p{font-size:12px}.zoom-preview{font-size:12px;padding:9px 11px}.brochure-reading-note{font-size:13px;padding:13px 16px}.panel-map .panel-labels{gap:4px;font-size:10px;line-height:1.8}.panel-map .panel-labels>span{padding:8px 3px}.panel-map>p{font-size:11px}.review-status{font-size:13px;width:100%;padding:10px 14px}.artwork-dialog{width:calc(100vw - 16px);max-height:calc(100dvh - 16px)}.artwork-dialog>header{padding:13px 16px;gap:12px}.artwork-dialog>header h2{font-size:16px}.artwork-dialog>header p{font-size:12px}.artwork-dialog>header button{padding:9px 13px}.dialog-scroll{max-height:calc(100dvh - 135px);padding:12px}}
+
+/* One brochure, three destinations. */
+.collection-nav .section-links{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media(max-width:600px){.collection-nav .section-links>a{padding:10px 6px;min-height:72px}.collection-nav .tab-title{font-size:14px}.collection-nav .tab-caption{font-size:10.5px}}
