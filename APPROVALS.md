@@ -2,7 +2,7 @@
 
 Status: **Body wording approved and locked** by the user on 9 October 2026.
 
-The user explicitly revised the presentation through browser comments: remove the greeting, introductory line and friend labels; use **Short note:**; give the guide priority. The subsequent request for Arabic-only interface headings changes this heading to **ملاحظة قصيرة:**. These requested changes are implemented in [note22](https://moeadnan.github.io/strategic-planning-print-kit-579666/?v=note22). The user subsequently requested removal of the sentence about delayed replies. The three remaining body paragraphs preserve their approved wording from content snapshot `d9b2e63b35ee33fa462f433a71e2282ef7e44813`.
+The user explicitly revised the presentation through browser comments: remove the greeting, introductory line and friend labels; use **Short note:**; give the guide priority. The subsequent request for Arabic-only interface headings changes this heading to **ملاحظة قصيرة:**. These requested changes are implemented in [note23](https://moeadnan.github.io/strategic-planning-print-kit-579666/?v=note23). The user subsequently requested removal of the paragraphs about delayed replies and his accounting/business strengths. The two remaining body paragraphs preserve their approved wording from content snapshot `d9b2e63b35ee33fa462f433a71e2282ef7e44813`.
 
 Preserve the body wording during other edits. An explicit user request to revise it overrides the lock; record the revision here.
 
@@ -14,13 +14,11 @@ This approval concerns the personal message only. Brochure content revisions con
 
 ## Exact approved body wording
 
-أنت بارع في المحاسبة والضرائب، وتفهم الأعمال جيدًا. يسعدني أنك تتجه إلى تطوير الأعمال وتؤسّس مشروعك الخاص. أثق بك.
-
 راجع التصاميم حين يتّسع وقتك، وأرسل ملاحظاتك كلّها في رسالة واحدة لأعدّلها معًا. لا ترسل لي كل قليل: «تذكّرت أمرًا آخر».
 
 أسأل الله أن يوفّقك في مشروعك، ويوسّع رزقك، ويبارك لك في مالك وعملك.
 
-Current HTML fragment SHA-256: `434a03ffa4d91f4984c5c0cf6ac5c9991adc874bc59c953041a7ed97da330e29`.
+Current HTML fragment SHA-256: `76fa724a58b0e5151e78c41fb4c8247335964530b7bb6abe3f3dba986e423f5d`.
 
 
 ## Brochure revision 20 — pending design approval
@@ -40,3 +38,8 @@ The interface has one brochure destination. Older Arabic/English HTML URLs open 
 ## Welcome revision 22 — explicit user edit
 
 Removed the paragraph about delayed replies at the user’s request. The remaining three paragraphs and all design artwork are unchanged. The revised personal message remains locked.
+
+
+## Welcome revision 23 — explicit user edit
+
+Removed the opening paragraph about his accounting/business strengths at the user’s request. Only the feedback request and the prayer remain, with their wording unchanged. All design artwork is unchanged. The revised personal message remains locked.
