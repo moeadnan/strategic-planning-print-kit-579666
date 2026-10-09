@@ -1,0 +1,45 @@
+/* Approved collection 11: midnight navy, warm ivory and restrained copper. */
+:root{--navy:#10283f;--ink:#21394d;--bronze:#98724f;--bronze-light:#b59673;--navy-muted:#42596b;--copper:#a67d55;--on-navy:#f5f0e7}
+body{color:var(--ink)}
+.collection-brand strong,.view-heading h1,.print-toolbar h1{color:var(--navy)}
+.collection-brand>.mark path:nth-child(2n){fill:var(--navy)}
+.collection-meta>p{color:var(--navy-muted)}
+.tabs>button[aria-selected=true]{color:var(--navy);border-bottom-color:var(--navy)}
+.card-grid{background:#e6e3dc;border-color:#f2efe9}
+.card-grid .proof-label{color:#556677}
+.card-sheet{--bronze:#a67d55;color:var(--navy)}
+.card-front{background:var(--navy);color:var(--on-navy)}
+.card-front-lockup>h1,.card-front-lockup>h2{color:var(--on-navy)}
+.card-front .card-descriptor,.card-front .card-descriptor-ar{color:#e1e2dd}
+.card-front .rule,.card-front-footer>i{background:#bd976d}
+.card-front-footer{color:#dedfd9}
+.card-back-brand>h2,.card-back-brand>h3,.card-person>h1,.card-person>h2{color:var(--navy)}
+.card-back .back-brand-descriptor{color:var(--navy-muted)}
+.card-back .back-tagline,.card-back .back-tagline-ar{color:var(--navy)}
+.card-person{border-left-color:#a67d55}
+.card-role{color:#92643e}
+.card-person .contacts{color:#1e3549}
+.card-back .contact-icon{color:var(--navy)}
+.card-back-footer{color:var(--navy)}
+/* The brochure's brand panel echoes the navy face of the business card. */
+.back-panel{background:var(--navy);color:var(--on-navy)}
+.back-panel::before{content:"";position:absolute;inset:-3mm 0;background:var(--navy);z-index:-2}
+.back-panel .brand-name,.back-panel .secondary-brand{color:var(--on-navy)}
+.back-panel .brand-descriptor{color:#d9dedf}
+.back-panel .ideas{color:#c9ab88}
+.back-panel .back-panel-bottom{color:#e7e5dc}
+.back-panel>.wordmark>.mark path:nth-child(2n){fill:#f2eee6}
+.back-panel>.wordmark>.mark path:nth-child(2n+1){fill:#b59673}
+.back-panel .back-panel-pattern{opacity:.09;clip-path:inset(0 28mm)}
+.back-panel>.rule{background:#bd976d}
+.brochure-sheet .service-heading,.brochure-sheet .founder-name,.brochure-sheet .work-heading,.brochure-sheet .work-step>h4,.brochure-sheet .story-bottom>h2{color:var(--navy)}
+.brochure-sheet .founder-title,.brochure-sheet .services-panel-header>h2,.brochure-sheet .contact-heading,.brochure-sheet .marketing-quote>p{color:#916a47}
+.brochure-sheet .cover-bottom{background:#10283fe8}
+.brochure-sheet .marketing-brand{background:var(--navy)}
+.brochure-sheet .wordmark>.mark path:nth-child(2n){fill:var(--navy)}
+.brochure-sheet .back-panel>.wordmark>.mark path:nth-child(2n),.brochure-sheet .marketing-brand .mark path:nth-child(2n){fill:#f2eee6}
+.brochure-sheet .marketing-brand .brand-name{color:var(--on-navy)}
+@media print{
+ .card-front{background:var(--navy)!important;color:var(--on-navy)}
+ .brochure-sheet .back-panel,.brochure-sheet .marketing-brand{background:var(--navy)!important}
+}

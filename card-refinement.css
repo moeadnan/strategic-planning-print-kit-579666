@@ -1,0 +1,58 @@
+/* Reference-led business card. Physical trim remains 90 x 55 mm. */
+.card-sheet{--bronze:#a06a43;background:#f5f0e7}
+.card-sheet::after{display:none}
+.card-material-art{position:absolute;inset:0;width:100%;height:100%;object-fit:fill;z-index:0}
+.card-sheet:not(.foil-sheet)>.card-trim{z-index:1}
+.card-sheet:not(.foil-sheet) .ornament{display:none}
+.card-sheet:not(.foil-sheet) .card-front-lockup>.mark,.card-sheet:not(.foil-sheet) .card-back-brand>.mark{visibility:hidden}
+.card-sheet .rule{height:.18mm;background:var(--bronze)}
+.card-front-lockup{top:6mm;left:2.5mm;width:65mm}
+.card-front-lockup>.mark{width:16mm;height:16mm}
+.card-front-lockup>h1{font-size:22pt;line-height:1.03;letter-spacing:-.28mm;margin-top:1mm}
+.card-front-lockup>h2{font-size:10pt;font-weight:400;line-height:1.3;margin-top:.5mm}
+.card-front-lockup>.rule{margin-top:.85mm;margin-bottom:1.8mm;width:6mm}
+.card-descriptor{font-size:5.65pt;letter-spacing:.24mm;line-height:1.4}
+.card-descriptor-ar{font-size:7.1pt;line-height:1.4;margin-top:.5mm}
+.card-front-footer{left:7.5mm;right:auto;width:65mm;bottom:4.3mm;display:flex;align-items:center;justify-content:space-between;gap:1.5mm;font-size:5.05pt;line-height:1.5;letter-spacing:.38mm}
+.card-front-footer>i{display:block;width:.13mm;height:1.4mm;background:var(--bronze);flex:none}
+.front-edge{width:44mm;height:62mm;right:-17mm;top:-3.5mm}
+.back-edge{width:70mm;height:90mm;left:-31.5mm;bottom:-58mm;opacity:1}
+.back-edge .card-stone{fill:#c6beb0}
+.card-back-brand{top:6.5mm;left:4mm;width:36.5mm}
+.card-back-brand>.mark{width:11.2mm;height:11.2mm}
+.card-back-brand>h2{font-size:14.2pt;line-height:1.1;font-weight:400;letter-spacing:-.13mm;margin-top:1.2mm}
+.card-back-brand>h3{font-size:9.2pt;line-height:1.45;font-weight:400;margin-top:.45mm}
+.card-back-brand>.rule{width:5.5mm;margin:.8mm 0 1.4mm}
+.back-brand-descriptor{font-size:4.6pt;line-height:1.65;letter-spacing:.24mm;white-space:nowrap}
+.back-tagline{font-size:8.8pt;line-height:1.05;margin-top:3mm;color:#915d37}
+.back-tagline-ar{font-size:6.9pt;line-height:1.3;margin-top:.55mm;color:#915d37}
+.card-person{top:6.5mm;bottom:5mm;left:44mm;right:3.8mm;padding-left:4.2mm;border-left:.13mm solid var(--bronze)}
+.card-person>h1{font:400 13.3pt/1.05 var(--serif);letter-spacing:-.08mm;white-space:nowrap;text-align:left}
+.card-person>h2{font:400 10.7pt/1.4 var(--ar);text-align:left;margin-top:.55mm;letter-spacing:0}
+.card-role{font-size:5.4pt;line-height:1.4;letter-spacing:.68mm;gap:2.4mm;margin-top:1mm}
+.card-role span{font:400 7.1pt/1.3 var(--ar)}
+.card-person>.contacts{margin-top:2.3mm;gap:1mm}
+.card-person .contact-row{display:flex;align-items:center;gap:2.4mm;font:400 7pt/1.2 var(--sans);letter-spacing:.025mm;white-space:nowrap}
+.contact-icon{width:2.6mm;height:2.6mm;color:var(--bronze);flex:none}
+.card-person .location{margin-top:0;font:400 7pt/1.2 var(--sans);align-items:flex-start}
+.card-location-ar{font:400 6.9pt/1.4 var(--ar);text-align:left;margin-top:.35mm}
+.card-back-footer{position:absolute;left:4.2mm;right:0;bottom:0;display:flex;align-items:center;justify-content:space-between;gap:.8mm;font:400 4.1pt/1.4 var(--sans);letter-spacing:.28mm;white-space:nowrap}
+.card-back-footer>i{width:5mm;height:.13mm;background:var(--bronze);flex:none}
+.card-back-footer>b{width:.12mm;height:1mm;background:var(--bronze);flex:none}
+.card-grid{grid-template-columns:1fr;max-width:1000px;margin:0 auto;gap:34px;padding:24px 24px 35px;background:#e7e1d7;border:1px solid #eee9e0}
+.card-grid .scaled{filter:drop-shadow(0 14px 11px #322a1f45);border-radius:0;overflow:hidden}
+.card-grid .scaled::after{content:"";position:absolute;inset:0;border:1px solid #ffffff9c;pointer-events:none;z-index:30}
+.card-grid .sheet{outline:none}
+.card-grid .proof-label{color:#84735c}
+.foil-sheet{background:white!important}
+.foil-sheet::after{display:none!important}
+.foil-sheet .card-metal{fill:#000!important}
+.foil-sheet .card-stone{fill:#fff!important}
+.foil-sheet .back-edge{opacity:1}
+@media(max-width:600px){.card-grid{padding:16px 10px 23px;gap:26px}}
+@media print{
+  .card-sheet::after{display:none}
+  .card-sheet .card-metal{fill:#a06a43}
+  .foil-sheet .card-metal{fill:#000!important}
+  .foil-sheet .card-stone{fill:#fff!important}
+}

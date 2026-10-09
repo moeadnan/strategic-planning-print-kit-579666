@@ -1,0 +1,25 @@
+STRATEGIC PLANNING — EDITABLE HTML SOURCES
+
+Open index.html in a browser to view the collection. All fonts and images are local; an internet connection is not required.
+
+business-card.html: bilingual, two-sided 90 x 55 mm card, 3 mm bleed.
+brochure-en.html: English, four-panel accordion, two sides.
+brochure-ar.html: Arabic, mirrored four-panel accordion, two sides.
+artwork.css: print artwork styling, typefaces and native layout.
+card-refinement.css: card composition, contact icons and the generated material layers used in both preview and print.
+typography.css: professional type roles, optical sizes and English/Arabic spacing.
+navy-refinement.css: collection 11 midnight-navy, ivory and copper colour system for cards and both brochures.
+TYPOGRAPHY.txt: font system and official sources.
+preview.css: responsive gallery styling, excluded from print output.
+assets/: original founder photo, licensed location photos, generated icons, card material images, local fonts and the output profile.
+assets/card-front-material-navy-v8.png: navy front material artwork, recoloured from the approved ivory composition with its corrected right-side ornament.
+assets/card-front-material-art-v4-final.png: earlier ivory front material artwork, retained as a reference.
+assets/card-back-material-art-v4-final.png: final reverse material artwork.
+tools/artwork.py: editable text content, native contact icons, brochure SVG mark/petal artwork and card image references.
+tools/build.py: regenerates the HTML documents from the artwork source; defaults to design-review mode. Use --approved only after design approval to restore final PDF download links.
+tools/render.cjs: creates screenshots and layout checks by default. Its --export-pdf flag creates RGB masters after design approval.
+
+The browser's Print button exports the editable layout in RGB. For commercial printing, use the supplied -PRINT-CMYK.pdf files, which include the CMYK conversion, crop marks, embedded output profile and print page boxes.
+
+The printer ZIP contains only final handoff files. Intermediate RGB/K/CMYK masters are intentionally excluded from that package.
+Imagegen prompts are in assets/IMAGEGEN-PROMPTS.txt and assets/CARD-MATERIAL-PROMPTS.txt and assets/NAVY-08-PROMPT.txt; licensing and photo sources are in CREDITS.txt. No foil mask is supplied for revision 11.

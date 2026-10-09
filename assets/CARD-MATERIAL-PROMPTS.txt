@@ -1,0 +1,48 @@
+STRATEGIC PLANNING — CARD MATERIAL ARTWORK / REVISION 04
+
+Tool: OpenAI built-in image_gen.imagegen (no fallback CLI).
+Original reference: ChatGPT Image Oct 9, 2026, 07_55_45 PM.png, supplied by the client.
+Final assets:
+assets/card-front-material-art-v4-final.png
+assets/card-back-material-art-v4-final.png
+
+These are text-free material layers. The HTML supplies all wording, contact icons and dividing rules independently. The images are included in the commercial CMYK PDFs. Printed texture does not constitute physical foil or tactile embossing.
+
+1. card04_front_prompt
+
+Use case: style-transfer.
+Asset type: text-free production artwork for the FRONT face of a premium business card; this will be the full-bleed image layer under separately typeset English and Arabic.
+Input image 1 is the approved aesthetic benchmark: the two real-looking ivory business cards with copper and stone-grey petals. Match its natural paper grain, muted copper foil colour, extremely shallow pressed texture, restrained lighting, and tactile luxury.
+Input image 2 is the precise FRONT layout target. Preserve that image's flat rectangular composition, petal silhouettes, empty areas, logo scale and logo position. Upgrade the materials ONLY to match image 1. It is a complete flat card face, not a photographed card mockup.
+The four-petal diamond at about 40% from the left and 28% from the top must stay exactly in place and keep its dimensions. Its top-left and bottom-right petals are stone-grey; the top-right and bottom-left petals are muted burnished copper. The large cropped petal ornament stays at the far RIGHT edge with grey upper-left and copper lower-left petals.
+Materials: warm white/ivory fine cotton paper, delicate natural fibres, softly textured copper foil pressed into paper, stone-grey ink with faint tactile impression. Very subtle close material detail, comparable to the original benchmark; keep paper bright. Avoid glossy CGI, smooth gradients, shiny bevels, plastic, excessive embossing, grainy noise or dramatic shadows.
+Canvas: landscape rectangle with the SAME aspect ratio as image 2 (96:61). Orthographic, perfectly flat, full edge-to-edge artwork, no external tabletop, no card border, no crop marks, no perspective, no page edge shadow. At least 1536 pixels wide if available.
+NO TEXT of any kind, no letters, no numbers, no labels, no small icon symbols, no signature, no rules/lines or contact details. Preserve the large quiet ivory negative space for later typesetting. Return only this ONE FRONT ARTWORK.
+
+2. card04_back_prompt
+
+Use case: style-transfer.
+Asset type: text-free production artwork for the BACK face of a premium business card; separately typeset English and Arabic will be overlaid later.
+Input image 1: original aesthetic benchmark, showing front and back cards. Use the BOTTOM card's arrangement and its elegant lower-left cropped petal detail.
+Input image 2: the selected finished FRONT artwork. Match its exact warm ivory cotton paper colour and scale of the paper fibres, muted burnished copper foil and stone-grey materials, restrained shallow impressions and light. These two faces belong to the same set.
+Input image 3: a flat BACK layout guide. Preserve ONLY its small four-petal logo's exact location, scale and silhouette, and the generous quiet areas for later type. Small logo centre: 26.3% across and 24.75% down; width 11.67% of canvas, height 18.36%. Grey upper-left and lower-right petals, copper upper-right and lower-left petals. Do not add a second logo.
+For the large lower-left ornament, improve the guide to match the ORIGINAL bottom card in image 1: keep the copper curve hugging the far LEFT edge, and the stone-grey petal sweeping gently into the lower-left corner. Start the visible ornament on the left boundary around 46% down, and let its broad grey curve end at the bottom around 27% across. Do not leave a pointed ornament vertex floating inside the card or touching the central branding area. Keep the entire right half plain ivory.
+Materials and texture: authentic subtle fine cotton paper and softly textured muted copper foil, exactly as in input image 2. Bright warm ivory, fine organic fibres, restrained natural material detail. No plastic or glossy CGI, no smooth digital gradients, no thick bevels, no excessive embossing or dark vignette.
+Composition: ONE complete flat landscape card face, same 96:61 aspect ratio as the guide. Orthographic, edge-to-edge paper. No perspective, tabletop, page-edge shadow, border or crop marks. At least 1536 pixels wide if available.
+Absolutely NO TEXT, letters, numbers, signature, contact icons, rules, lines, captions or watermarks. Empty space is intentional. Return only the ONE BACK ARTWORK.
+
+3. card04_back_correction_prompt
+
+Precise-object-edit. Input image 1 is the back artwork to correct. Input image 2 is the geometry guide.
+Change ONLY the small four-petal logo in image 1. Make it about 17% smaller, shift its centre LEFT by 3.8% of total canvas width and UP by 3.6% of total canvas height, so its position and size match the small logo in image 2 exactly.
+Final logo centre must be at 26.3% of canvas width and 24.75% of canvas height. Final logo width is 11.67% of canvas width and height is 18.36% of canvas height. Keep its original copper and grey material, exact four-petal silhouette and fine paper texture. Restore the exposed paper seamlessly where the old logo was.
+Lock everything else: identical overall image dimensions/aspect ratio, paper colour and grain, lighting, copper curve and sweeping grey petal in the lower-left corner. NO TEXT, no rules, no contact details or added graphics. Return one complete corrected back artwork.
+
+4. card04_front_ornament_correction_prompt
+
+Precise-object-edit.
+Input image 1 is the FRONT artwork to correct. Input image 2 is the original approved reference showing two business cards. Match the RIGHT-HAND decoration on the TOP card in image 2 exactly.
+Change ONLY the large cropped ornament on the right side of input image 1. Its current proportions and cropping are wrong. Copy the original reference's actual arrangement of grey and copper petals, curved inner boundaries, points and crop. Do NOT invent a different four-point diamond or a symmetrical star.
+Use these observed locations from the top reference card, expressed within the complete card face: left-pointing meeting tip at about 70.5% across and 54% down; upper meeting point at about 95.2% across on the top edge; lower meeting point at about 93.4% across at the bottom edge. Let most of the centre and right half of the oversized logo run off the RIGHT edge. The copper strip at the UPPER-RIGHT edge is slim, as in the reference, not the broad copper wedge currently shown. Upper-left large petal is muted stone grey; lower-left large petal is textured copper. The rightmost partial petal at the bottom is stone grey. Faithfully match the original curve shapes and diagonal slopes from image 2.
+Keep the small logo, its position and size, paper colour and grain, copper material, lighting and ALL other pixels of input image 1 unchanged. Keep the original 96:61 landscape canvas aspect ratio and all left/centre negative space.
+Return ONE perfectly flat edge-to-edge front artwork. NO text, no typography, no rules, no border, no perspective, no cast shadows or tabletop. The reference is for ornament shape, not for adding text or a photographed card scene.

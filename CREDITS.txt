@@ -1,0 +1,32 @@
+STRATEGIC PLANNING — ASSET CREDITS
+
+Company identity and founder
+Company details, benchmark artwork and Ahmad Abu Alrub's original portrait were supplied by the client. Brochure marks and decorative petals are editable SVG reconstructions from the supplied raster references; these are not original corporate vector masters.
+Business-card revision 04 uses two text-free ivory-and-copper material images generated from the supplied benchmark with OpenAI's built-in imagegen tool. The front's right-side ornament was corrected against the reference. The material images include the decorative petals and small company mark. All English/Arabic wording, contact icons and dividing rules are separately authored, selectable vector content. Full prompts are in assets/CARD-MATERIAL-PROMPTS.txt; final images are assets/card-front-material-art-v4-final.png and assets/card-back-material-art-v4-final.png.
+Collection 08 adds a midnight-navy brand face: assets/card-front-material-navy-v8.png. This text-free image was recoloured using OpenAI’s built-in imagegen tool, with the previously corrected ivory artwork as the edit target. Native bilingual text, contacts and rules are separate. The full edit prompt is supplied in assets/NAVY-08-PROMPT.txt. The reverse retains the ivory material artwork.
+Paper grain and copper texture are included in the CMYK print artwork. Physical tactile stock and metallic foil are separate finishing choices. No foil mask is included for this revision.
+
+Location photography
+1. Amman Panorama at Amman citadel 2025 — by ほっきー.
+Source: https://commons.wikimedia.org/wiki/File:Amman_Panorama_at_Amman_citadel_2025.jpg
+License: CC0 1.0 Universal.
+https://creativecommons.org/publicdomain/zero/1.0/
+Used as the cover panorama, cropped in the layout and overlaid with native decorative shapes and colour tinting. The flag is a separate native SVG illustration.
+
+2. Amman Citadel Temple of Hercules — by LiAnna Davis.
+Source: https://commons.wikimedia.org/wiki/File:Amman_Citadel_Temple_of_Hercules.JPG
+License: Creative Commons Attribution-ShareAlike 3.0 Unported.
+https://creativecommons.org/licenses/by-sa/3.0/
+Used on the introduction panel, cropped by the layout and converted to the print colour profile in the PDFs. The original photograph is included in the editable sources. The photograph and adaptations of it remain available under CC BY-SA 3.0; this license does not claim ownership of the other independently authored elements of the collection. Attribution also appears next to the photograph in each brochure edition.
+
+Service medallions
+Seven transparent PNG service icons were generated using OpenAI's built-in imagegen tool for this collection. Full generation prompts are in assets/IMAGEGEN-PROMPTS.txt. Brochure spreads are native HTML layouts; the founder portrait is the supplied original. The card's separate generated material layers are described above.
+
+Typography
+Collection 11 uses Source Serif 4 (Adobe; designed by Frank Grießhammer) for English company names and principal headings, IBM Plex Sans Arabic (IBM / Bold Monday) for Arabic, and Source Sans 3 (Adobe) for personal names, English reading text, contact details and utility labels. All are distributed under the SIL Open Font License 1.1. License texts accompany the local font files in assets/. Used PDF fonts are embedded TrueType subsets. Arabic uses native shaping and right-to-left layout without added tracking. Earlier Baskervville, Noto Naskh Arabic, Cormorant Garamond, Amiri, EB Garamond and Manrope files are retained with their licenses for source compatibility. See TYPOGRAPHY.txt for roles, sizes and official source links.
+
+Colour output profile
+PSO Coated v3 (FOGRA51), supplied by the European Color Initiative (ECI).
+Official profile download: https://eci.org/lib/exe/pso-coated_v3.zip
+ECI downloads: https://eci.org/doku.php_id=en_downloads.html
+The printer must confirm that this coated-paper profile matches the selected press and stock.

@@ -1,0 +1,35 @@
+STRATEGIC PLANNING — PRINTING HANDOFF
+Approved collection 11 / midnight navy, warm ivory and copper | 09 October 2026
+
+1. COMMERCIAL PRINTING
+Use the files ending in -PRINT-CMYK.pdf.
+Business card: 90 x 55 mm trim, two pages / two sides.
+English brochure: 396 x 210 mm trim, page 1 outside, page 2 inside.
+Arabic brochure: same size and page order, mirrored reading direction.
+All three have 3 mm bleed, crop marks outside the bleed, encoded TrimBox and BleedBox, embedded fonts and a PSO Coated v3 / FOGRA51 CMYK output intent. The file's full page size includes the crop-mark area; it is NOT the finished size.
+
+2. OFFICE PRINTING
+Business-Card-Office-A4.pdf: A4 portrait, eight cards per side.
+Print both pages duplex, flip on LONG edge, actual size / 100%.
+Brochure-English-Office-A3.pdf and Brochure-Arabic-Office-A3.pdf: A3 landscape, one complete brochure per sheet.
+Print both pages duplex, flip on SHORT edge, actual size / 100%.
+Disable fit-to-page, shrink-to-fit and automatic booklet printing.
+First print one duplex sheet to check alignment and the device's flip setting.
+
+3. FOLDING AND FINISHING
+Brochure: four-panel accordion / concertina fold; finished 99 x 210 mm.
+Three alternating folds at 99, 198 and 297 mm from the LEFT trim edge.
+Use the panel-order diagrams in Print-Specifications.pdf. The founder/contact panel is the back cover. The Arabic edition mirrors the English edition. Make a folding dummy before the full run.
+Suggested card stock: 350–400 gsm matte coated with soft-touch, or tactile warm-white stock with the printer's matching profile.
+Suggested brochure stock: 170–200 gsm matte coated; score folds as appropriate.
+The card pairs a midnight-navy brand face with an ivory contact face. The printed paper grain and textured copper are included in the CMYK artwork and reproduce with process inks. All wording, contact icons and dividing rules are separate vector elements. Card material images exceed 400 ppi at the supplied bleed size.
+No foil mask is included for revision 11. If a physical metallic finish is required, the print provider must prepare registered tooling from the final artwork. Tactile paper and metallic foil require the corresponding stock and finishing process.
+
+4. PRODUCTION NOTES
+Confirm the supplied CMYK profile with the print provider, then check a physical proof for colour, fold direction and contact details before the full run. These are production PDFs with explicit print geometry; no independent PDF/X certification is claimed.
+The card's text-free material and mark artwork was generated from the supplied benchmark. Brochure marks and decorative petals are editable SVG reconstructions. Neither replaces an original corporate vector master; any supplied official master should be checked against the final proof before substitution.
+The supplied founder portrait is preserved. The Amman photography is licensed; see CREDITS.txt. The service icons are generated transparent PNG artwork.
+
+Typography: Source Serif 4 English wordmarks and main headings, IBM Plex Sans Arabic, Source Sans 3 personal names, reading text and contact details. Approved collection 11 uses restrained typography: 7.3 pt card contacts, 9.4–9.7 pt English brochure body text and 10–10.2 pt Arabic brochure body text. See TYPOGRAPHY.txt.
+
+Read Print-Specifications.pdf for dimensioned layouts and full printing instructions.

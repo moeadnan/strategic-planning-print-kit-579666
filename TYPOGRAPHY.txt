@@ -1,0 +1,28 @@
+STRATEGIC PLANNING — BUSINESS TYPE SYSTEM / APPROVED COLLECTION 11
+
+1. ENGLISH CORPORATE IDENTITY
+Source Serif 4 supplies company names and main brochure headings. Its regular weight keeps a restrained classical character. The card brand face uses 16.5 pt and the reverse brand uses 11.5 pt. Brochure cover headings use 21.5 pt, introduction headings 24 pt and service section headings 19 pt.
+Official source: https://github.com/adobe-fonts/source-serif
+Credit: Adobe; designed by Frank Grießhammer.
+License: assets/sourceserif4-OFL.txt
+
+2. ARABIC
+IBM Plex Sans Arabic supplies all Arabic text. Medium weight supplies company names; semibold supplies the personal name and service headings; regular supplies supporting text. Card company name: 13.2 pt front / 9.8 pt reverse; personal name: 9.8 pt. Brochure body: 10–10.2 pt with open leading; cover supporting copy uses 10.5 pt. The bilingual card names are balanced by visible height and weight. Word widths naturally differ between scripts; neither line is stretched or artificially tracked.
+Arabic remains naturally shaped and joined, with no added tracking or simulated italics. Telephone, email and website strings retain left-to-right direction.
+Official source: https://github.com/IBM/plex
+Credit: IBM / Bold Monday.
+License: assets/ibmplexsansarabic-OFL.txt
+
+3. PERSONAL NAMES, READING TEXT AND DETAILS
+Source Sans 3 supplies English personal names, brochure body copy, service subheadings, labels, contact details and the preview interface. The personal name on the card uses 10.6 pt Semibold, contacts use 7.3 pt Regular and the tagline uses upright 7.2 pt Regular. Card English descriptors use 5.5 pt on the front and 5.1 pt on the reverse. English brochure body text is 9.4–9.7 pt, founder contacts use 10 pt, and work-step descriptions use 8.8 pt. Tracking is restricted to short Latin labels. No italic or script-like accents are used in this revision.
+Official source: https://github.com/adobe-fonts/source-sans
+Credit: Adobe; designed by Paul D. Hunt.
+License: assets/sourcesans3-OFL.txt
+
+4. IMPLEMENTATION AND PRINT
+The typography.css stylesheet owns font roles, sizes and spacing. The final navy-refinement.css stylesheet applies the collection 11 colour hierarchy. Static TrueType fonts are stored locally, so HTML previews work offline. Real supplied weights are used; font synthesis is disabled. Standard kerning and shaping are enabled.
+The user approved this design on 09 October 2026. The final PDFs and printer packages use the same smaller-type collection 11 artwork. The renderer creates screenshots and layout checks by default; its --export-pdf flag is reserved for approved designs. PDF text uses embedded font subsets.
+Card trim and bleed, reference ornaments, brochure panel sizes and fold positions are preserved. Smaller type and adjusted spacing give the identity more breathing room. Small decorative footers and photo credits remain subordinate to practical reading text. Layout checks verify clearance above footers and below the service and contact blocks.
+
+5. NAVY ART DIRECTION
+Midnight navy (#10283F) anchors the identity, with warm ivory (#F5F0E7) and copper accents (#A67D55). The brand face uses ivory type over navy material artwork; the reverse uses navy type over ivory. Both brochure editions repeat the navy brand panel. RGB values describe the HTML preview palette; final PDFs use the embedded PSO Coated v3 / FOGRA51 CMYK output profile.
