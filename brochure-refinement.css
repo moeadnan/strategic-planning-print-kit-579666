@@ -1,0 +1,133 @@
+/* Brochure review 20 — warm ivory, quiet copper, editorial spacing. */
+.brochure-sheet{background:#f6f1e8;color:#21394d}
+.brochure-sheet .panel{padding:8mm 7mm 7mm}
+.brochure-sheet .brand-name{font-size:17pt;line-height:1.2;letter-spacing:-.1mm}
+.brochure-sheet .brand-descriptor{font:600 5.7pt/1.7 var(--sans);letter-spacing:.35mm;max-width:77mm}
+.brochure-sheet .wordmark>.mark{width:25mm;height:25mm}
+.brochure-sheet .lang-ar,.lang-ar .panel{font-family:var(--ar)}
+.lang-ar .brand-name{font:500 17pt/1.6 var(--ar);letter-spacing:0}
+.lang-ar .brand-descriptor{font:400 8.6pt/1.7 var(--ar);letter-spacing:0}
+
+/* One composed portrait, with the Arabic name present in both editions. */
+.brochure-sheet .founder-title{font:600 7pt/1.5 var(--sans);letter-spacing:.8mm;color:#916a47}
+.brochure-sheet .founder-name{font:500 19pt/1.5 var(--ar);margin-top:1mm;color:var(--navy);text-align:inherit}
+.founder-name-latin{font:400 10pt/1.3 var(--serif);margin-top:.3mm;color:#526373}
+.brochure-sheet .founder-portrait-row{display:block;position:relative;margin:4mm 0 0;width:85mm;height:69mm;overflow:hidden}
+.brochure-sheet .portrait{width:100%;height:100%;object-fit:cover;object-position:50% 10%;border:0}
+.lang-en .founder-name{text-align:left}
+.founder-portrait-row figcaption{position:absolute;bottom:0;left:0;right:0;background:linear-gradient(transparent,#10283fe8);padding:7mm 3mm 3mm;color:#fff8ed;font:400 7.8pt/1.5 var(--sans)}
+.lang-ar .founder-portrait-row figcaption{font:400 8.5pt/1.6 var(--ar)}
+.brochure-sheet .founder-bio{font:400 9.5pt/1.5 var(--sans);margin-top:4mm}
+.lang-ar .founder-bio{font:400 10pt/1.85 var(--ar);margin-top:4mm}
+.brochure-sheet .founder-panel>.full-rule{margin-top:5mm;background:#b8997b}
+.brochure-sheet .contact-heading{font:400 13pt/1.4 var(--serif);margin:4mm 0 3mm}
+.lang-ar .contact-heading{font:500 11.8pt/1.6 var(--ar)}
+.brochure-sheet .founder-panel .contacts{gap:2.1mm}
+.brochure-sheet .founder-panel .contact-row{display:flex;gap:3mm;align-items:center;font:400 9.6pt/1.35 var(--sans);direction:ltr;text-align:left}
+.brochure-sheet .founder-panel .contact-icon{width:3.6mm;height:3.6mm;flex:none;color:#916a47}
+.lang-ar .founder-panel .contact-row{flex-direction:row-reverse;text-align:right}
+.lang-ar .founder-panel .location{font:400 9.5pt/1.6 var(--ar)}
+.brochure-sheet .founder-footer{font:600 6pt/1.5 var(--sans);letter-spacing:.6mm;color:#916a47;bottom:7mm}
+.lang-ar .founder-footer{font:400 8pt/1.5 var(--ar);letter-spacing:0}
+
+/* The quiet identity panel follows the supplied ivory reference. */
+.brochure-sheet .back-panel{background:#f6f1e8;padding-top:21mm;color:var(--navy);overflow:hidden}
+.brochure-sheet .back-panel::before{background:#f6f1e8}
+.brochure-sheet .back-panel .brand-name,.brochure-sheet .back-panel .brand-descriptor,.brochure-sheet .back-panel .back-panel-bottom{color:var(--navy)}
+.brochure-sheet .back-panel>.wordmark>.mark path:nth-child(2n){fill:var(--navy)}
+.brochure-sheet .back-panel>.wordmark>.mark path:nth-child(2n+1){fill:#b18d6d}
+.brochure-sheet .back-panel>.wordmark>.mark{width:28mm;height:28mm}
+.brochure-sheet .back-panel>.rule{margin-top:10mm;width:14mm}
+.brochure-sheet .back-panel .ideas{font:400 20pt/1.35 var(--serif);color:#916a47;margin-top:7mm}
+.lang-ar .back-panel .ideas{font:400 20pt/1.75 var(--ar);margin-top:6mm}
+.brochure-sheet .back-panel>.second-rule{margin-top:7mm;width:11mm}
+.brochure-sheet .back-panel .back-panel-pattern{width:151mm;height:151mm;left:-26mm;bottom:-58mm;opacity:.25;clip-path:none;z-index:-1}
+.brochure-sheet .back-panel-bottom{bottom:12mm;font:400 10pt/1.6 var(--sans)}
+.lang-ar .back-panel-bottom>p{font:400 10pt/1.6 var(--ar)}
+
+/* A continuous city photograph, softened by the same sweeping petal geometry. */
+.brochure-sheet .panorama>img{object-position:48% 50%;filter:sepia(.18) saturate(.77) brightness(1.05)}
+.brochure-sheet .panorama-warmth{background:linear-gradient(180deg,#fbebd95e 0%,#ecd4b117 35%,transparent 65%,#10283f26)}
+.brochure-sheet .cover-panel{padding:11mm 7mm 7mm}
+.brochure-sheet .cover-ivory{width:102mm;height:167mm}
+.brochure-sheet .cover-panel .wordmark{align-items:flex-start;text-align:left}
+.lang-ar .cover-panel .wordmark{align-items:flex-start;text-align:right}
+.brochure-sheet .cover-panel .wordmark>.mark{width:19mm;height:19mm}
+.brochure-sheet .cover-panel .brand-name{font-size:15.2pt;line-height:1.2;margin-top:2mm;white-space:normal}
+.lang-ar .cover-panel .brand-name{font:500 16.5pt/1.6 var(--ar);margin-top:1mm}
+.brochure-sheet .cover-panel .brand-descriptor{font-size:5.6pt;letter-spacing:.3mm;max-width:76mm}
+.lang-ar .cover-panel .brand-descriptor{font:400 8.5pt/1.6 var(--ar);letter-spacing:0}
+.brochure-sheet .cover-copy{margin-top:9mm}
+.brochure-sheet .cover-copy>h1{font:400 24pt/1.14 var(--serif);letter-spacing:-.15mm;color:#172e41}
+.lang-ar .cover-copy>h1{font:500 23pt/1.5 var(--ar);letter-spacing:0}
+.brochure-sheet .cover-copy>p{font:400 10.5pt/1.5 var(--sans);max-width:76mm;margin-top:5mm}
+.lang-ar .cover-copy>p{font:400 11pt/1.8 var(--ar);margin-top:4mm}
+.brochure-sheet .cover-copy>.rule{margin-top:5mm}
+.brochure-sheet .cover-bottom{left:6mm;right:6mm;bottom:11mm;padding:5mm 4mm;background:#10283fe8;color:#fff8ee;text-shadow:none;border-top:.35mm solid #b59673}
+.brochure-sheet .cover-bottom>p{font:600 6.8pt/1.8 var(--sans);letter-spacing:.65mm}
+.lang-ar .cover-bottom>p{font:400 10pt/1.6 var(--ar);letter-spacing:0}
+.brochure-sheet .story-panel{padding-top:15mm}
+.brochure-sheet .story-kicker{font:600 7pt/1.9 var(--sans);letter-spacing:.7mm;color:#21394d}
+.lang-ar .story-kicker{font:400 10pt/1.8 var(--ar)}
+.brochure-sheet .jordan-flag{top:68mm;right:17mm;width:22mm;height:37mm}
+.lang-ar .jordan-flag{left:17mm;right:auto}
+.brochure-sheet .story-bottom{bottom:9mm;left:0;right:0;padding:22mm 7mm 10mm;background:#f6f1e8e8;clip-path:polygon(0 25%,100% 0,100% 100%,0 100%)}
+.lang-ar .story-bottom{clip-path:polygon(0 0,100% 25%,100% 100%,0 100%)}
+.story-small{font:600 6pt/1.7 var(--sans);letter-spacing:.8mm;margin-bottom:3mm;color:#916a47}
+.lang-ar .story-small{font:400 8.5pt/1.6 var(--ar)}
+.brochure-sheet .story-bottom>h2{font:400 19pt/1.25 var(--serif)}
+.lang-ar .story-bottom>h2{font:500 18pt/1.7 var(--ar)}
+.brochure-sheet .story-bottom>.rule{margin-top:4mm}
+
+/* The interior remains an airy four-panel editorial spread. */
+.brochure-sheet.inside .panel+.panel{border-left:.2mm solid #d7cdbf}
+.brochure-sheet .intro-panel{padding-top:11mm}
+.brochure-sheet .eyebrow{font:600 6.8pt/1.7 var(--sans);letter-spacing:.8mm;color:#916a47}
+.lang-ar .eyebrow{font:400 9pt/1.7 var(--ar)}
+.brochure-sheet .intro-panel>h2{font:400 25pt/1.15 var(--serif);margin-top:4mm;color:var(--navy)}
+.lang-ar .intro-panel>h2{font:500 23pt/1.6 var(--ar);margin-top:3mm}
+.brochure-sheet .intro-copy>p{font:400 10pt/1.55 var(--sans)}
+.lang-ar .intro-copy>p{font:400 10.5pt/1.85 var(--ar)}
+.brochure-sheet .citadel-photo{height:94mm;clip-path:polygon(0 14%,100% 0,100% 100%,0 100%)}
+.lang-ar .citadel-photo{height:94mm;clip-path:polygon(0 0,100% 14%,100% 100%,0 100%)}
+.citadel-photo::after{content:"";position:absolute;inset:50% 0 0;background:linear-gradient(transparent,#10283fb8);z-index:0}
+.brochure-sheet .photo-caption,.brochure-sheet .photo-credit{z-index:1}
+.brochure-sheet .photo-caption{font:600 6pt/1.8 var(--sans);letter-spacing:.7mm}
+.lang-ar .photo-caption{font:400 10pt/1.8 var(--ar)}
+.brochure-sheet .photo-credit{font:400 5.5pt/1.2 var(--sans);letter-spacing:0}
+.brochure-sheet .services-panel-header{height:22mm;text-align:center;padding-bottom:3mm;border-bottom:.2mm solid #b8997b}
+.brochure-sheet .services-panel-header>h2{font:400 16pt/1.25 var(--serif);color:#916a47}
+.lang-ar .services-panel-header>h2{font:500 14.3pt/1.65 var(--ar)}
+.brochure-sheet .services-panel-header>p{font:600 5.7pt/1.5 var(--sans);letter-spacing:.7mm;margin-top:2mm}
+.lang-ar .services-panel-header>p{font:400 8.3pt/1.5 var(--ar);letter-spacing:0;margin-top:1mm}
+.brochure-sheet .service-list{gap:10mm;margin-top:6mm}
+.brochure-sheet .service-heading{align-items:center;gap:3mm}
+.brochure-sheet .service-heading>h3{font:600 11pt/1.35 var(--sans)}
+.lang-ar .service-heading>h3{font:600 11.1pt/1.65 var(--ar)}
+.brochure-sheet .service-medallion{width:13mm;height:13mm}
+.brochure-sheet .service>ul{font:400 9.7pt/1.5 var(--sans);margin-top:1mm}
+.lang-ar .service>ul{font:400 10pt/1.85 var(--ar);margin-top:1mm;margin-left:0}
+.brochure-sheet .service li+li{margin-top:.6mm}
+.lang-ar .service li+li{margin-top:0}
+.brochure-sheet .service-panel-footer{font:600 5.7pt/1.5 var(--sans);letter-spacing:.3mm;white-space:normal}
+.lang-ar .service-panel-footer{font:400 8pt/1.5 var(--ar);letter-spacing:0}
+.brochure-sheet .marketing-panel>.service{margin-top:0}
+.brochure-sheet .marketing-quote{margin-top:7mm}
+.brochure-sheet .marketing-quote>p{font:400 17pt/1.3 var(--serif);font-style:normal;margin:4mm 0;color:#916a47}
+.lang-ar .marketing-quote>p{font:400 15pt/1.75 var(--ar)}
+.brochure-sheet .work-heading{font:400 16pt/1.3 var(--serif);margin-top:6mm}
+.lang-ar .work-heading{font:500 13pt/1.65 var(--ar)}
+.brochure-sheet .work-grid{margin-top:4mm;gap:5mm 4mm}
+.brochure-sheet .work-step>h4{font:600 9.5pt/1.4 var(--sans)}
+.lang-ar .work-step>h4{font:600 10pt/1.6 var(--ar)}
+.brochure-sheet .work-step>p{font:400 8.7pt/1.5 var(--sans)}
+.lang-ar .work-step>p{font:400 9pt/1.8 var(--ar)}
+.brochure-sheet .marketing-brand{height:50mm;left:0;right:-3mm;clip-path:polygon(0 0,100% 25%,100% 100%,0 100%);padding:12mm 6mm 8mm;justify-content:flex-start}
+.lang-ar .marketing-brand{left:-3mm;right:0;clip-path:polygon(0 25%,100% 0,100% 100%,0 100%)}
+.brochure-sheet .marketing-brand .wordmark>.mark{width:11mm;height:11mm}
+.brochure-sheet .marketing-brand .brand-name{font-size:11pt;line-height:1.3;color:#f5f0e7;margin-top:2mm}
+.lang-ar .marketing-brand .brand-name{font:500 12pt/1.6 var(--ar)}
+.brochure-sheet .marketing-brand .brand-descriptor{display:none}
+.brochure-sheet .marketing-brand>p{font:400 5.5pt/1.6 var(--sans);letter-spacing:.2mm;color:#e2d8ca}
+.lang-ar .marketing-brand>p{font:400 7.7pt/1.6 var(--ar);letter-spacing:0}
+@media print{.brochure-sheet .back-panel{background:#f6f1e8!important}}

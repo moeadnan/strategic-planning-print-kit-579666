@@ -1,44 +1,31 @@
-# Strategic Planning | التخطيط الاستراتيجي
+# التخطيط الاستراتيجي
 
-Approved bilingual business card and English / Arabic brochures, with commercial and office printing files.
+[فتح معاينة التصاميم](https://moeadnan.github.io/strategic-planning-print-kit-579666/?v=brochure20#ar)
 
-**[Preview and download](https://moeadnan.github.io/strategic-planning-print-kit-579666/#files)**
+بطاقة أعمال باللغتين ومطويّتان بالعربية والإنجليزية. الواجهة عربية، وتوضح الوجه الخارجي والداخلي وترتيب الألواح، مع خيار تكبير التفاصيل.
 
-## Downloads
+**حالة النسخة الحالية:** البطاقة معتمدة وجاهزة للتحميل. تصميم المطويّتين المحدّث قيد المراجعة؛ لم تُحدّث ملفات PDF أو حزم الطباعة بعد.
 
-- [Complete printer package](https://github.com/moeadnan/strategic-planning-print-kit-579666/releases/download/v1.0.0/Strategic-Planning-Printer-Package.zip) — all seven PDFs, print instructions and colour profile.
-- [Editable HTML package](https://github.com/moeadnan/strategic-planning-print-kit-579666/releases/download/v1.0.0/Strategic-Planning-Editable-HTML.zip) — offline layouts, local fonts, images, editable source and PDFs.
+## الملفات المتاحة
 
-| File | Download |
-| --- | --- |
-| Bilingual business card | [Commercial printing PDF](https://github.com/moeadnan/strategic-planning-print-kit-579666/releases/download/v1.0.0/Business-Card-PRINT-CMYK.pdf) |
-| English brochure | [Commercial printing PDF](https://github.com/moeadnan/strategic-planning-print-kit-579666/releases/download/v1.0.0/Brochure-English-PRINT-CMYK.pdf) |
-| Arabic brochure | [Commercial printing PDF](https://github.com/moeadnan/strategic-planning-print-kit-579666/releases/download/v1.0.0/Brochure-Arabic-PRINT-CMYK.pdf) |
-| Business card, A4 office sheets | [Office PDF](https://github.com/moeadnan/strategic-planning-print-kit-579666/releases/download/v1.0.0/Business-Card-Office-A4.pdf) |
-| English brochure, A3 office sheets | [Office PDF](https://github.com/moeadnan/strategic-planning-print-kit-579666/releases/download/v1.0.0/Brochure-English-Office-A3.pdf) |
-| Arabic brochure, A3 office sheets | [Office PDF](https://github.com/moeadnan/strategic-planning-print-kit-579666/releases/download/v1.0.0/Brochure-Arabic-Office-A3.pdf) |
-| Printing and folding instructions | [Specification PDF](https://github.com/moeadnan/strategic-planning-print-kit-579666/releases/download/v1.0.0/Print-Specifications.pdf) |
+- [بطاقة الأعمال للطباعة التجارية PDF](https://github.com/moeadnan/strategic-planning-print-kit-579666/releases/download/v1.0.0/Business-Card-PRINT-CMYK.pdf)
+- [ورقة البطاقة للطباعة المكتبية A4](https://github.com/moeadnan/strategic-planning-print-kit-579666/releases/download/v1.0.0/Business-Card-Office-A4.pdf)
+- [دليل المقاسات والطباعة](https://github.com/moeadnan/strategic-planning-print-kit-579666/releases/download/v1.0.0/Print-Specifications.pdf)
 
-## Printing
+[الإصدار المعتمد السابق v1.0.0](https://github.com/moeadnan/strategic-planning-print-kit-579666/releases/tag/v1.0.0) محفوظ بأصوله، بما فيها ملفات البروشور السابقة. هذه الملفات لا تمثّل التصميم الجديد المعروض هنا.
 
-Business card: **90 × 55 mm**, two sides, 3 mm bleed. Brochures: **396 × 210 mm** flat, four-panel accordion fold, **99 × 210 mm** folded. English and Arabic are separate editions.
+## المقاسات
 
-For office printing, use actual size / 100%. A4 cards: duplex, flip on the long edge. A3 brochures: duplex, flip on the short edge. Check one physical proof before the full run.
+البطاقة: 90 × 55 مم، وجهان، ونزف 3 مم. المطويّة: 396 × 210 مم مفتوحة، و99 × 210 مم بعد الطيّ، مع أربعة ألواح وثلاث طيّات متعاكسة. ترتيب النسخة العربية معكوس عن الإنجليزية.
 
-Commercial PDFs include CMYK colour, embedded fonts, crop marks, TrimBox / BleedBox and the PSO Coated v3 / FOGRA51 output profile. See [START-HERE.txt](START-HERE.txt) for the complete handoff.
+تُصدّر النسخة الجديدة للطباعة بعد اعتماد التصميم. تراخيص الخطوط ونسب الصور موثّقة في [CREDITS.txt](CREDITS.txt) ومجلد `assets/`.
 
-## Business card preview
+## المطويّة بالعربية
 
-![Bilingual business card](previews/business-card.png)
+![الوجه الخارجي للمطويّة العربية](previews/brochure-ar-outside.png)
+![الوجه الداخلي للمطويّة العربية](previews/brochure-ar-inside.png)
 
-## Arabic brochure preview
+## المطويّة بالإنجليزية
 
-![Arabic brochure outside](previews/brochure-ar-outside.png)
-![Arabic brochure inside](previews/brochure-ar-inside.png)
-
-## English brochure preview
-
-![English brochure outside](previews/brochure-en-outside.png)
-![English brochure inside](previews/brochure-en-inside.png)
-
-Collection 11, approved 9 October 2026. Font licenses and photo attribution are included in [CREDITS.txt](CREDITS.txt) and `assets/`.
+![الوجه الخارجي للمطويّة الإنجليزية](previews/brochure-en-outside.png)
+![الوجه الداخلي للمطويّة الإنجليزية](previews/brochure-en-inside.png)
