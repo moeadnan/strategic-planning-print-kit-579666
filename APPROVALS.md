@@ -1,20 +1,18 @@
 # Approved Arabic welcome message
 
-Status: **Approved and locked** by the user on 9 October 2026.
+Status: **Body wording approved and locked** by the user on 9 October 2026.
 
-Scope: the personal Arabic welcome letter on the landing page. Preserve its wording during other edits. An explicit user request to revise the message overrides the lock; record the accepted revision here.
+The user explicitly revised the presentation through browser comments: remove the greeting, introductory line and friend labels; use **Short note:**; give the guide priority. These requested changes are implemented in [guide19](https://moeadnan.github.io/strategic-planning-print-kit-579666/?v=guide19). The four approved body paragraphs remain unchanged from content snapshot `d9b2e63b35ee33fa462f433a71e2282ef7e44813`.
 
-Published version: [note18](https://moeadnan.github.io/strategic-planning-print-kit-579666/?v=note18), approved content snapshot `d9b2e63b35ee33fa462f433a71e2282ef7e44813`.
+Preserve the body wording during other edits. An explicit user request to revise it overrides the lock; record the revision here.
 
-This approval concerns the personal letter only. Brochure content revisions continue through the agreed review process. PDF exports require approval of the relevant print design.
+This approval concerns the personal message only. Brochure content revisions continue through the agreed review process. PDF exports require approval of the relevant print design.
 
-## Exact approved wording
+## Current heading
 
-من صديقك
+Short note:
 
-تفضّل يا أحمد.
-
-بطاقة ومطويّة. لا تقل إنني قصّرت معك.
+## Exact approved body wording
 
 أنت بارع في المحاسبة والضرائب، وتفهم الأعمال جيدًا. يسعدني أنك تتجه إلى تطوير الأعمال وتؤسّس مشروعك الخاص. أثق بك.
 
@@ -24,6 +22,4 @@ This approval concerns the personal letter only. Brochure content revisions cont
 
 أسأل الله أن يوفّقك في مشروعك، ويوسّع رزقك، ويبارك لك في مالك وعملك.
 
-صديقك
-
-HTML fragment SHA-256: `b65a67552b718251de21b3a57c7085e66a20d6c1fb0e3e9e0955e48c3261230f`.
+Current HTML fragment SHA-256: `ba3d3d4a146b3bf89b5b5f660fc867b0b6138d5fb83c1b196a61033dd638f1c8`.
