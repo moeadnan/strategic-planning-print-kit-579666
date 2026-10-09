@@ -2,7 +2,7 @@
 
 Status: **Body wording approved and locked** by the user on 9 October 2026.
 
-The user explicitly revised the presentation through browser comments: remove the greeting, introductory line and friend labels; use **Short note:**; give the guide priority. The subsequent request for Arabic-only interface headings changes this heading to **ملاحظة قصيرة:**. These requested changes are implemented in [bilingual21](https://moeadnan.github.io/strategic-planning-print-kit-579666/?v=bilingual21). The four approved body paragraphs remain unchanged from content snapshot `d9b2e63b35ee33fa462f433a71e2282ef7e44813`.
+The user explicitly revised the presentation through browser comments: remove the greeting, introductory line and friend labels; use **Short note:**; give the guide priority. The subsequent request for Arabic-only interface headings changes this heading to **ملاحظة قصيرة:**. These requested changes are implemented in [note22](https://moeadnan.github.io/strategic-planning-print-kit-579666/?v=note22). The user subsequently requested removal of the sentence about delayed replies. The three remaining body paragraphs preserve their approved wording from content snapshot `d9b2e63b35ee33fa462f433a71e2282ef7e44813`.
 
 Preserve the body wording during other edits. An explicit user request to revise it overrides the lock; record the revision here.
 
@@ -18,11 +18,9 @@ This approval concerns the personal message only. Brochure content revisions con
 
 راجع التصاميم حين يتّسع وقتك، وأرسل ملاحظاتك كلّها في رسالة واحدة لأعدّلها معًا. لا ترسل لي كل قليل: «تذكّرت أمرًا آخر».
 
-وإن تأخرت في الرد، فأنا منشغل بالعمل؛ لا داعي لفتح تحقيق.
-
 أسأل الله أن يوفّقك في مشروعك، ويوسّع رزقك، ويبارك لك في مالك وعملك.
 
-Current HTML fragment SHA-256: `5a5df1b5b004c3c2775f7ba73563782b1c9aa42578a5f07562646c31dcb88f87`.
+Current HTML fragment SHA-256: `434a03ffa4d91f4984c5c0cf6ac5c9991adc874bc59c953041a7ed97da330e29`.
 
 
 ## Brochure revision 20 — pending design approval
@@ -37,3 +35,8 @@ The HTML preview has been updated. Brochure PDF and ZIP assets have not been reg
 The user requested one brochure containing Arabic and English, then asked for a smaller portrait and elegant quoting. The current preview is one four-panel brochure with two sides. Every panel and service contains paired Arabic/English text. The portrait is 34 × 45 mm, beside a proposed bilingual statement about the company’s working approach. This is new draft brand copy, not a sourced personal quotation.
 
 The interface has one brochure destination. Older Arabic/English HTML URLs open this same bilingual edition. The business card and locked personal note are unchanged. Existing PDFs and ZIPs remain unchanged; the new bilingual PDF requires approval.
+
+
+## Welcome revision 22 — explicit user edit
+
+Removed the paragraph about delayed replies at the user’s request. The remaining three paragraphs and all design artwork are unchanged. The revised personal message remains locked.
